@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>vn.iotstar</groupId>
-	<artifactId>demo-sitemesh-thymeleaf</artifactId>
+	<artifactId>demo02_spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-sitemesh-thymeleaf</name>
+	<name>demo02_spring</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
