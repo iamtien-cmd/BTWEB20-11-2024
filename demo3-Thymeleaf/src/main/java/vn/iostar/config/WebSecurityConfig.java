@@ -80,7 +80,6 @@ public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
             .requestMatchers(HttpMethod.GET, "/api/**").permitAll()
             .requestMatchers("/api/**").permitAll()
             .anyRequest().authenticated())
-        .httpBasic(withDefaults())
         .formLogin(login -> login.loginPage("/login").permitAll())
         .logout(logout -> logout.permitAll())
         .exceptionHandling(handling -> handling.accessDeniedPage("/403"))
